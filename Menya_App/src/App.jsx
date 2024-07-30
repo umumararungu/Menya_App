@@ -13,7 +13,8 @@ import Contact from './components/contact/Contact';
 import LoginPopup from './components/LoginPopup/LoginPopup';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
-// import CourseDetail from './components/courseDetail/CourseDetail';
+import CourseDetail from './components/courseDetail/courseDetail';
+
 
 
 const Layout = () => {
@@ -38,6 +39,7 @@ const App = () => {
           {/* <Route path='/pricing' element={<Pricing />} /> 
           <Route path='/blog' element={<Blog />} />  */}
           <Route path='/contact' element={<Contact />} /> 
+          <Route path='/contact' element={<LoginPopup />} /> 
           <Route path='/courseDetail/:id' element={<courseDetail />} /> 
         </Route>
         <Route path='/login' element={<Login />} />
