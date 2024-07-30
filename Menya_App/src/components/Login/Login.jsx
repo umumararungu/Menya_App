@@ -22,7 +22,7 @@ const Login = () => {
                 data: form,
             }).then((response) =>{
                 setToken(response.data.token);
-                console.log("Received Token:", response.data);
+                console.log("Received Token:", response.data.user);
                 localStorage.setItem('userId',response.data.user.id)
                 setTimeout(() => {
                     navigate('/courseHome');
