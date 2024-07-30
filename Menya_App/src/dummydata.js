@@ -3,7 +3,7 @@ export const homeAbout = [
       id: 1,
       cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
       title: "Online Courses",
-      desc: "Creating email used to be like last cahmpion of fighting but from now on it is like blowing candle.It is time to dive into it.",
+      desc: "Creating email used to be like last champion of fighting but from now on it is like blowing candle.It is time to dive into it.",
     },
     {
       id: 1,
@@ -53,8 +53,8 @@ export const homeAbout = [
           totalTime: "50 lectures (190 hrs)",
         },
       ],
-      priceAll: "$100 All Course",
-      pricePer: "$15 per month",
+      priceAll: "0",
+      pricePer: "For Free",
     },
     {
       id: 2,
@@ -67,8 +67,8 @@ export const homeAbout = [
           totalTime: "30 lectures (125 hrs)",
         },
       ],
-      priceAll: "$200 All Course",
-      pricePer: "$25 per month",
+      priceAll: "0",
+      pricePer: "For Free",
     },
     {
       id: 3,
@@ -81,8 +81,8 @@ export const homeAbout = [
           totalTime: "50 lectures (50 hrs)",
         },
       ],
-      priceAll: "$50 All Course",
-      pricePer: "$5 per month",
+      priceAll: "0",
+      pricePer: "For Free",
     },
     {
       id: 4,
@@ -95,8 +95,8 @@ export const homeAbout = [
           totalTime: "20 lectures (20 hrs)",
         },
       ],
-      priceAll: "$30 All Course",
-      pricePer: "$3 per month",
+      priceAll: "0",
+      pricePer: "For Free",
     },
     {
       id: 5,
@@ -112,62 +112,9 @@ export const homeAbout = [
       priceAll: "$300 All Course",
       pricePer: "$30 per month",
     },
-    {
-      id: 6,
-      cover: "../images/courses/c6.png",
-      coursesName: "Learn Frontend Programming Language",
-      courTeacher: [
-        {
-          dcover: "./images/back.webp",
-          name: "by Sunil Bishowkaram",
-          totalTime: "200 lectures (300 hrs)",
-        },
-      ],
-      priceAll: "$500 All Course",
-      pricePer: "$80 per month",
-    },
-    {
-      id: 7,
-      cover: "../images/courses/c7.png",
-      coursesName: "Introducing to with HTML / CSS",
-      courTeacher: [
-        {
-          dcover: "./images/back.webp",
-          name: "by Price",
-          totalTime: "20 lectures (50 hrs)",
-        },
-      ],
-      priceAll: "$20 All Course",
-      pricePer: "$2 per month",
-    },
-    {
-      id: 8,
-      cover: "../images/courses/c8.png",
-      coursesName: "Introducing to with JAVA",
-      courTeacher: [
-        {
-          dcover: "./images/back.webp",
-          name: "by Petter",
-          totalTime: "80 lectures (200 hrs)",
-        },
-      ],
-      priceAll: "$200 All Course",
-      pricePer: "$40 per month",
-    },
-    {
-      id: 9,
-      cover: "../images/courses/c9.png",
-      coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
-      courTeacher: [
-        {
-          dcover: "./images/back.webp",
-          name: "by Petter",
-          totalTime: "50 lectures (50 hrs)",
-        },
-      ],
-      priceAll: "$20 All Course",
-      pricePer: "$3 per month",
-    },
+   
+
+
   ]
   export const online = [
     {
@@ -392,24 +339,24 @@ export const homeAbout = [
   export const testimonal = [
     {
       id: 1,
-      name: "ROGER SCOTT",
+      name: "MARIE ANGE",
       post: "MARKETING MANAGER",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t1.webp",
+      desc: "It was fast and easy for me to get enrollered in my dream university  because of high quality motivational letter i wrote from skills i have got from this site.",
+      cover: "./images/testo/t1.jpeg",
     },
     {
       id: 2,
-      name: "ROGER SCOTT",
-      post: "MARKETING MANAGER",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t2.webp",
+      name: "NEZA SONIA",
+      post: "BUSINESS WOMAN",
+      desc: "I have a connection almost around the world all thanks to Social media course.",
+      cover: "./images/testo/t8.jpeg",
     },
     {
       id: 3,
-      name: "ROGER SCOTT",
-      post: "MARKETING MANAGER",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t3.webp",
+      name: "CARLY MWIZA",
+      post: "BUSINESS WOMAN",
+      desc: "From partimer worker to CEO was not easy but with Word processing course everything went smooth.",
+      cover: "./images/testo/t7.jpeg",
     },
   ]
   
