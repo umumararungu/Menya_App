@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Outlet, Routes } from 'react-router-dom';
 import Home from './components/home/Home';
 import Footer from './components/common/footer/Footer';
 import About from './components/About/About';
+import Details from './components/courseDetail/Details';
 import CourseHome from './components/allcourses/CourseHome';
 import Team from './components/team/Team';
 // import Pricing from './components/pricing/Pricing';
@@ -13,7 +14,6 @@ import Contact from './components/contact/Contact';
 import LoginPopup from './components/LoginPopup/LoginPopup';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
-import CourseDetail from './components/courseDetail/courseDetail';
 
 
 
@@ -44,6 +44,7 @@ const App = () => {
         </Route>
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
+        <Route path='/details' element={<Details />} />
       </Routes>
     </BrowserRouter>
   );

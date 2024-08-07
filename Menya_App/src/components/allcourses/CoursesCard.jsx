@@ -105,7 +105,8 @@ const CoursesCard = () => {
             </div>
             <button onClick={() => {
               handleEnroll(course._id);
-              navigate(`/courseDetail/${course._id}`, { state: { course } });
+              // navigate(`/courseDetail/${course._id}`, { state: { course } });
+              navigate(`/courseDetail/Details}`);
             }} className='outline-btn'>
               ENROLL NOW!
             </button>
